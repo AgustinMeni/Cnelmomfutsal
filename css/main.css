@@ -1,0 +1,73 @@
+/* Estilos generales para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', Arial, sans-serif;
+    color: #FFFFFF; /* Texto blanco por defecto */
+}
+
+/* Estilos específicos para el cuerpo del documento */
+body {
+    background-color: #111; /* Fondo negro tirando a gris */
+}
+
+/*Header*/
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #0000FE; /* Azul */
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Texto blanco */
+    text-decoration: underline;
+}
+
+/*Main*/
+
+/* Estilos para el logo */
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Ancho del logo */
+    height: auto; /* Altura ajustada automáticamente */
+}
+
+#contenido-main {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px; /* Ancho máximo del contenido */
+}
+
+#contenido-main h2 {
+    color: #F4F6FF; /* Color blanco para el título */
+    margin-bottom: 20px; /* Espacio entre el título y el primer párrafo */
+}
+
+#contenido-main p {
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+}
+
+/*Footer*/
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #0000FE; /* Azul */
+}
